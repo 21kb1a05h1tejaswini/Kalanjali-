@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3a0f3f"/><stop offset="1" stop-color="#1c0620"/></linearGradient></defs>
+<rect width="400" height="500" fill="url(#bg)"/>
+<rect x="14" y="14" width="372" height="472" fill="none" stroke="#f2b632" stroke-width="3"/>
+<circle cx="200" cy="260" r="150" fill="#ffb347" opacity=".12"/>
+<ellipse cx="200" cy="420" rx="160" ry="34" fill="#c9962b"/>
+<ellipse cx="200" cy="414" rx="146" ry="28" fill="#e0b04a"/>
+<g fill="none" stroke-linecap="round">
+<ellipse cx="200" cy="392" rx="130" ry="30" fill="#f2b632"/><ellipse cx="200" cy="392" rx="130" ry="30" stroke="#fff3b0" stroke-width="10" stroke-dasharray="3 9"/>
+<ellipse cx="200" cy="348" rx="112" ry="27" fill="#e8457c"/><ellipse cx="200" cy="348" rx="112" ry="27" stroke="#ffd1dc" stroke-width="10" stroke-dasharray="3 9"/>
+<ellipse cx="200" cy="306" rx="92" ry="24" fill="#fff"/><ellipse cx="200" cy="306" rx="92" ry="24" stroke="#e0e0f0" stroke-width="9" stroke-dasharray="3 8"/>
+<ellipse cx="200" cy="268" rx="72" ry="21" fill="#ff7a2f"/><ellipse cx="200" cy="268" rx="72" ry="21" stroke="#ffc58a" stroke-width="9" stroke-dasharray="3 8"/>
+<ellipse cx="200" cy="232" rx="52" ry="18" fill="#b3126f"/><ellipse cx="200" cy="232" rx="52" ry="18" stroke="#ff8ccf" stroke-width="8" stroke-dasharray="3 7"/>
+<ellipse cx="200" cy="200" rx="32" ry="14" fill="#f2b632"/><ellipse cx="200" cy="200" rx="32" ry="14" stroke="#fff3b0" stroke-width="7" stroke-dasharray="3 6"/>
+</g>
+<circle cx="200" cy="178" r="16" fill="#b3122f"/><circle cx="200" cy="178" r="8" fill="#f2b632"/>
+<g transform="translate(70 90)"><path d="M0 20 q16 20 32 0Z" fill="#c9962b"/><path d="M16 18 q-8 -12 0 -26 q8 14 0 26Z" fill="#ffb347"/><path d="M16 14 q-3 -6 0 -12 q3 6 0 12Z" fill="#fff3b0"/></g>
+<g transform="translate(298 90)"><path d="M0 20 q16 20 32 0Z" fill="#c9962b"/><path d="M16 18 q-8 -12 0 -26 q8 14 0 26Z" fill="#ffb347"/><path d="M16 14 q-3 -6 0 -12 q3 6 0 12Z" fill="#fff3b0"/></g>
+<g fill="#f4d58d"><circle cx="50" cy="200" r="2"/><circle cx="350" cy="210" r="2"/><circle cx="70" cy="300" r="2"/><circle cx="335" cy="320" r="2"/><circle cx="120" cy="140" r="2"/><circle cx="285" cy="150" r="2"/></g>
+</svg>

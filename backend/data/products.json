@@ -1,0 +1,12 @@
+[
+  { "id": 1, "name": "Stretched Canvas, 12 x 16 in", "category": "canvas", "price": 450, "image": "images/store/canvas.svg", "badge": "Bestseller", "desc": "Primed cotton canvas on a pine frame. Ready to paint." },
+  { "id": 2, "name": "Canvas Set, 5 pack", "category": "canvas", "price": 1900, "image": "images/store/canvas-set.svg", "badge": "Save 15%", "desc": "Five mixed-size canvases for a whole series of paintings." },
+  { "id": 3, "name": "Artist Brush Set, 12 pcs", "category": "tools", "price": 690, "image": "images/store/brushes.svg", "badge": "", "desc": "Round, flat and fan brushes with soft synthetic bristles." },
+  { "id": 4, "name": "Acrylic Paint Set, 12 tubes", "category": "colours", "price": 1250, "image": "images/store/tubes.svg", "badge": "New", "desc": "Rich, buttery acrylics in 12 bold shades, 36 ml each." },
+  { "id": 5, "name": "Poster Colour Jars, 24", "category": "colours", "price": 560, "image": "images/store/pots.svg", "badge": "", "desc": "Bright, water-based poster colours, great for muggu designs." },
+  { "id": 6, "name": "Wooden Tabletop Easel", "category": "tools", "price": 1450, "image": "images/store/easel.svg", "badge": "", "desc": "Foldable beechwood easel that holds canvases up to 24 in." },
+  { "id": 7, "name": "Mixing Palette and Knife", "category": "tools", "price": 380, "image": "images/store/palette.svg", "badge": "", "desc": "Wooden palette with a steel palette knife for mixing colours." },
+  { "id": 8, "name": "Handmade Sketchbook", "category": "tools", "price": 320, "image": "images/store/sketchbook.svg", "badge": "Handmade", "desc": "120 gsm cotton paper, spiral bound. Takes ink and light paint." },
+  { "id": 9, "name": "Natural Dye Kalamkari Kit", "category": "kits", "price": 1650, "image": "images/store/dyekit.svg", "badge": "Kit", "desc": "Five plant-based dyes, a bamboo pen and cotton swatches to try Kalamkari at home." },
+  { "id": 10, "name": "Muggu Colour Powder Kit", "category": "kits", "price": 290, "image": "images/store/rangoli.svg", "badge": "Festive", "desc": "Six tins of fine colour powder for doorstep rangoli and muggu." }
+]

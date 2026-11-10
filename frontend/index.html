@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kalanjali | Paintings with a story inside</title>
+  <meta name="description" content="Original paintings inspired by Telugu tradition, live painting sessions, colour mixing and an art-supply store." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css?v=6" />
+</head>
+<body>
+  <div class="blob b1"></div><div class="blob b2"></div>
+
+  <header class="nav">
+    <a href="#top" class="logo">Kalanjali</a>
+    <nav id="menu">
+      <a href="#gallery">Gallery</a>
+      <a href="#live">Live</a>
+      <a href="#colours">Colours</a>
+      <a href="#store">Store</a>
+      <a href="#journal">Journal</a>
+      <a href="#about">About</a>
+    </nav>
+    <div class="nav-right">
+      <button class="cart-btn" id="cart-open" aria-label="Open cart">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 7h12l-1 13H7L6 7z"/><path d="M9 7a3 3 0 0 1 6 0"/></svg>
+        <span id="cart-count">0</span>
+      </button>
+      <a href="#contact" class="pill">Enquire</a>
+      <button class="burger" id="burger" aria-label="Menu">☰</button>
+    </div>
+  </header>
+
+  <section class="hero" id="top">
+    <div class="hero-left">
+      <span class="tag reveal"><b></b> Original paintings, made by hand</span>
+      <h1 class="reveal">Every painting hides a <em class="grad">story</em>.</h1>
+      <p class="lead reveal">Original artworks inspired by Telugu tradition. Each one comes with a little history and a hidden meaning, so your wall has something to say.</p>
+      <div class="row reveal">
+        <a href="#gallery" class="btn solid">Explore the collection</a>
+        <a href="#live" class="btn line">Join a live session</a>
+      </div>
+      <div class="stats reveal">
+        <div><b id="count">200</b><span>Paintings</span></div>
+        <div><b>4</b><span>Live sessions a month</span></div>
+        <div><b>All India</b><span>Shipping</span></div>
+      </div>
+    </div>
+    <div class="hero-right" id="hero-stack"></div>
+  </section>
+
+  <div class="marquee" aria-hidden="true">
+    <div class="track">
+      <span>Kalamkari</span><i>✦</i><span>Muggu</span><i>✦</i><span>Bathukamma</span><i>✦</i><span>Gopuram</span><i>✦</i><span>Lotus</span><i>✦</i><span>Peacock</span><i>✦</i><span>Konaseema</span><i>✦</i>
+      <span>Kalamkari</span><i>✦</i><span>Muggu</span><i>✦</i><span>Bathukamma</span><i>✦</i><span>Gopuram</span><i>✦</i><span>Lotus</span><i>✦</i><span>Peacock</span><i>✦</i><span>Konaseema</span><i>✦</i>
+    </div>
+  </div>
+
+  <!-- GALLERY -->
+  <section class="section" id="gallery">
+    <div class="head reveal">
+      <p class="kicker">The collection</p>
+      <h2>Choose a <em class="grad">story</em> for your wall</h2>
+      <p class="sub">Tap any painting to read its story and the meaning hidden inside.</p>
+    </div>
+    <div class="tabs reveal" id="chips"></div>
+    <div class="toolbar reveal">
+      <input id="search" type="search" placeholder="Search paintings…" aria-label="Search paintings" />
+      <span class="muted small" id="result-count"></span>
+      <select id="sort" aria-label="Sort paintings">
+        <option value="featured">Sort: Featured</option>
+        <option value="low">Price: low to high</option>
+        <option value="high">Price: high to low</option>
+        <option value="az">Name: A to Z</option>
+      </select>
+    </div>
+    <main id="grid" class="grid"></main>
+    <div class="more"><button id="more" class="btn line">Show more</button></div>
+  </section>
+
+  <div class="quote-band reveal">
+    <p>“Paint what the heart remembers, not what the eye saw.”</p>
+    <span>Kalanjali</span>
+  </div>
+
+  <!-- LIVE SESSIONS -->
+  <section class="section" id="live">
+    <div class="head reveal">
+      <p class="kicker"><i class="live-dot"></i> Live painting sessions</p>
+      <h2>Paint along, <em class="grad">live</em></h2>
+      <p class="sub">Watch me paint, ask questions and finish a piece together. (Demo schedule.)</p>
+    </div>
+    <div class="live-main reveal" id="live-main"></div>
+    <h3 class="mini-h reveal">More upcoming sessions</h3>
+    <div class="session-grid" id="session-grid"></div>
+    <h3 class="mini-h">Watch past sessions</h3>
+    <div class="replay-grid" id="replay-grid"></div>
+  </section>
+
+  <!-- COLOUR MIXING -->
+  <section class="section" id="colours">
+    <div class="head reveal">
+      <p class="kicker">Colour palette studio</p>
+      <h2>Mix your own <em class="grad">palette</em></h2>
+      <p class="sub">Pick two pigments, drag the slider, and see what you get. Save the mixes you love.</p>
+    </div>
+    <div class="mixer reveal">
+      <div class="mixer-left">
+        <p class="m-label">Pigment A</p>
+        <div class="swatches" id="sw-a"></div>
+        <p class="m-label">Pigment B</p>
+        <div class="swatches" id="sw-b"></div>
+        <p class="m-label">Mix: <b id="mix-pct">50</b>% B</p>
+        <input type="range" id="mix" min="0" max="100" value="50" />
+      </div>
+      <div class="mixer-right">
+        <div class="result" id="result"><span id="result-name">Your mix</span><b id="result-hex">#000000</b></div>
+        <div class="tints" id="tints"></div>
+        <div class="row"><button class="btn solid" id="save-mix">Save this mix</button></div>
+      </div>
+    </div>
+    <div class="board reveal">
+      <p class="m-label">Your saved palette <button class="link-btn" id="clear-board">clear</button></p>
+      <div class="saved" id="saved"></div>
+    </div>
+    <h3 class="mini-h reveal">Palette recipes</h3>
+    <div class="recipes" id="recipes"></div>
+  </section>
+
+  <div class="quote-band alt reveal">
+    <p>“Every colour is a mood you haven't named yet.”</p>
+    <span>Kalanjali</span>
+  </div>
+
+  <!-- STORE -->
+  <section class="section" id="store">
+    <div class="head reveal">
+      <p class="kicker">Art supply store</p>
+      <h2>Everything you need to <em class="grad">start painting</em></h2>
+      <p class="sub">Canvases, colours, brushes and kits I actually use. (Demo products.)</p>
+    </div>
+    <div class="tabs small-tabs reveal" id="store-tabs"></div>
+    <div class="products" id="products"></div>
+  </section>
+
+  <!-- JOURNAL -->
+  <section class="section" id="journal">
+    <div class="head reveal">
+      <p class="kicker">The journal</p>
+      <h2>Notes from the <em class="grad">studio</em></h2>
+      <p class="sub">Stories, techniques and quiet thoughts. (Demo posts.)</p>
+    </div>
+    <div class="posts" id="posts"></div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section about" id="about">
+    <div class="about-card reveal"><img src="images/art/kalamkari-1-gulabi.svg" alt="Artist's painting" /></div>
+    <div class="about-text reveal">
+      <p class="kicker">About the artist</p>
+      <h2>Hello, I'm <em class="grad">Artist Name</em></h2>
+      <p>This is dummy text. Replace it with your own story. I grew up watching muggu drawn at dawn, Bathukamma flowers stacked by the river, and gopurams glowing at dusk. I paint those memories with a modern eye: bold colour, clean lines and a lot of heart.</p>
+      <div class="timeline">
+        <div><b>2018</b><span>Painted my first Kalamkari piece</span></div>
+        <div><b>2021</b><span>Opened my first small exhibition</span></div>
+        <div><b>2024</b><span>Started live painting sessions online</span></div>
+        <div><b>2026</b><span>Launched this gallery and store</span></div>
+      </div>
+      <div class="feats">
+        <div><b>Hand-painted</b><span>Acrylics, inks and natural dyes</span></div>
+        <div><b>One of a kind</b><span>No prints. No copies.</span></div>
+        <div><b>Signed &amp; packed</b><span>Shipped safely to your door</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact" id="contact">
+    <div class="contact-card reveal">
+      <p class="kicker">Say hello</p>
+      <h2>Bring a painting <em class="grad">home</em></h2>
+      <p class="lead">Love a piece, or want something made for your space? Send a message and I'll get back to you.</p>
+      <form id="form">
+        <label class="fld"><span>From</span><input id="f-name" placeholder="Your name" required /></label>
+        <label class="fld"><span>Your email</span><input id="f-email" type="email" placeholder="you@gmail.com" required /></label>
+        <label class="fld"><span>To</span><input id="f-to" value="21kb1a05h1@nbkrist.org" readonly /></label>
+        <label class="fld"><span>Subject</span><input id="f-subject" value="Painting enquiry" required /></label>
+        <textarea id="f-msg" rows="4" placeholder="Which painting or what would you like made?" required></textarea>
+        <div class="row">
+          <button class="btn solid" type="submit">Open in Gmail ↗</button>
+          <a id="wa-general" class="btn line" target="_blank" rel="noopener">WhatsApp</a>
+        </div>
+        <p class="muted small">Gmail opens in a new tab with everything filled in. Just press Send.</p>
+      </form>
+      <a class="mail" href="https://mail.google.com/mail/?view=cm&fs=1&to=21kb1a05h1@nbkrist.org" target="_blank" rel="noopener">21kb1a05h1@nbkrist.org</a>
+    </div>
+  </section>
+
+  <footer>
+    <span class="logo">Kalanjali</span>
+    <p>© 2026 Kalanjali · Handmade with ♥ in the Telugu states</p>
+  </footer>
+
+  <!-- painting modal -->
+  <div id="modal" class="modal hidden" role="dialog" aria-modal="true">
+    <div class="modal-box">
+      <button class="close" data-close aria-label="Close">×</button>
+      <div class="modal-img"><img id="m-img" alt="" /></div>
+      <div class="modal-info">
+        <p class="kicker" id="m-cat"></p>
+        <h3 id="m-title"></h3>
+        <p class="muted" id="m-desc"></p>
+        <div class="story-box"><b>The story</b><p id="m-story"></p></div>
+        <div class="story-box meaning"><b>Hidden meaning</b><p id="m-meaning"></p></div>
+        <p class="color-note" id="m-color"></p>
+        <ul class="specs">
+          <li><span>Size</span><b id="m-size"></b></li>
+          <li><span>Medium</span><b id="m-medium"></b></li>
+        </ul>
+        <div class="buy"><span class="m-price" id="m-price"></span>
+          <div class="row"><a id="m-wa" class="btn solid" target="_blank" rel="noopener">WhatsApp</a><a id="m-mail" class="btn line">Email</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- blog post modal -->
+  <div id="post-modal" class="modal hidden" role="dialog" aria-modal="true">
+    <div class="modal-box post-box">
+      <button class="close" data-close aria-label="Close">×</button>
+      <img id="p-img" alt="" />
+      <div class="post-info">
+        <p class="kicker" id="p-tag"></p>
+        <h3 id="p-title"></h3>
+        <p class="muted small" id="p-meta"></p>
+        <div id="p-body"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- cart drawer -->
+  <div id="cart-overlay" class="overlay hidden"></div>
+  <aside id="cart" class="cart" aria-label="Shopping cart">
+    <div class="cart-head"><h3>Your cart</h3><button class="close static" id="cart-close" aria-label="Close cart">×</button></div>
+    <div class="cart-items" id="cart-items"></div>
+    <div class="cart-foot">
+      <div class="total"><span>Total</span><b id="cart-total">₹0</b></div>
+      <a id="order-wa" class="btn solid block" target="_blank" rel="noopener">Order on WhatsApp</a>
+      <a id="order-mail" class="btn line block" target="_blank" rel="noopener">Order by Gmail</a>
+      <p class="muted small">No payment is taken on this site. Your order opens as a message to the artist.</p>
+    </div>
+  </aside>
+
+  <div id="toast" class="toast"></div>
+
+  <script src="script.js?v=6"></script>
+</body>
+</html>

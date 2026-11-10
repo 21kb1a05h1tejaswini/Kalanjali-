@@ -1,0 +1,20 @@
+[
+  { "id": 1, "title": "Why I paint doorsteps at dawn", "tag": "Muggu", "date": "2 Nov 2026", "readTime": "4 min read", "image": "images/art/muggu-1-kumkum.svg",
+    "excerpt": "The oldest art I know lasts one morning, and feeds the ants before breakfast.",
+    "body": ["This is dummy text. Replace it with your own post. Every morning, before the city wakes up, a handful of rice flour turns a plain doorstep into a small gallery.", "It is the first thing I learned to draw, and the last thing I plan to stop drawing. The dots come first, the loops follow, and by the time the sun is up, the pattern has already begun to fade.", "That, I think, is the point. Some art is made to be kept, and some is made to be given away."] },
+  { "id": 2, "title": "The story behind every Kalamkari peacock", "tag": "Kalamkari", "date": "26 Oct 2026", "readTime": "5 min read", "image": "images/art/kalamkari-2-peacock.svg",
+    "excerpt": "A hundred eyes, one tail, and a monsoon cloud somewhere nearby.",
+    "body": ["This is dummy text. Replace it with your own post. The peacock in Kalamkari is never alone, it always seems to be listening for rain.", "I like to start with the eyes of the tail feathers, one by one, so the bird never loses its focus.", "By the last feather, I usually find I am humming."] },
+  { "id": 3, "title": "Mixing kumkum: a morning with three pigments", "tag": "Colour", "date": "18 Oct 2026", "readTime": "3 min read", "image": "images/art/nature-2-kumkum.svg",
+    "excerpt": "Three pigments, one white and a lot of patience make a whole sunrise.",
+    "body": ["This is dummy text. Replace it with your own post. Red, yellow and a little blue can make nearly every colour on my wall.", "The trick is to add the darker colour a drop at a time, and to stop just before you are sure.", "I keep a small card of every mix I like, labelled with the day and the weather."] },
+  { "id": 4, "title": "Notes from a Bathukamma evening", "tag": "Festival", "date": "9 Oct 2026", "readTime": "6 min read", "image": "images/art/festival-1-gulabi.svg",
+    "excerpt": "Marigolds, songs and a cone of flowers that floats away at the end.",
+    "body": ["This is dummy text. Replace it with your own post. By evening the courtyard smells of marigolds and wet earth.", "Everyone sings the same old songs, and somehow they sound new every year.", "When the flowers finally go into the water, nobody is sad. That is the strange magic of the festival."] },
+  { "id": 5, "title": "Choosing your first canvas: a gentle guide", "tag": "Guide", "date": "30 Sep 2026", "readTime": "4 min read", "image": "images/art/temple-4-jamun.svg",
+    "excerpt": "Size, weight and primer, explained without the jargon.",
+    "body": ["This is dummy text. Replace it with your own post. Start small. A 12 x 16 inch canvas forgives a lot of mistakes.", "Look for primed cotton on a solid frame, and tap the back, it should sound tight, like a drum.", "Once you have finished three, you will know exactly what size you want next."] },
+  { "id": 6, "title": "How a gopuram taught me patience", "tag": "Temple Art", "date": "21 Sep 2026", "readTime": "5 min read", "image": "images/art/temple-1-gulabi.svg",
+    "excerpt": "Seven tiers, four hundred tiny windows and one stubborn sunset.",
+    "body": ["This is dummy text. Replace it with your own post. I almost gave up on the fourth tier.", "Then I remembered that nobody built a gopuram in a day, and I put the brush down for tea.", "The painting looks better for the break, and so, I think, do I."] }
+]

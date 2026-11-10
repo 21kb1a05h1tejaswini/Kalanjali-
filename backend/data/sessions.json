@@ -1,0 +1,14 @@
+{
+  "upcoming": [
+    { "id": 1, "title": "Painting a Gopuram at Dusk", "level": "Beginner", "inDays": 3, "time": "6:00 PM", "minutes": 90, "price": 0, "seats": 40, "image": "images/art/temple-1-gulabi.svg", "desc": "Paint a temple tower glowing against the evening sky, step by step. Bring any paints you have." },
+    { "id": 2, "title": "Kalamkari Peacock, Line by Line", "level": "Intermediate", "inDays": 8, "time": "7:00 PM", "minutes": 120, "price": 199, "seats": 25, "image": "images/art/kalamkari-2-peacock.svg", "desc": "Draw and colour a peacock using traditional line work and a limited, natural palette." },
+    { "id": 3, "title": "Muggu for Beginners: Dots to Designs", "level": "Beginner", "inDays": 12, "time": "7:00 AM", "minutes": 60, "price": 0, "seats": 60, "image": "images/art/muggu-2-kumkum.svg", "desc": "A relaxed morning session learning dot grids and loops, with rice flour or poster colours." },
+    { "id": 4, "title": "Mixing Colours from Nature", "level": "All levels", "inDays": 17, "time": "5:30 PM", "minutes": 75, "price": 149, "seats": 30, "image": "images/art/nature-3-pachcha.svg", "desc": "Learn how to mix greens, earthy browns and sunset oranges from just five pigments." }
+  ],
+  "replays": [
+    { "id": 11, "title": "Bathukamma in Acrylics", "length": "1h 22m", "views": "2.4k", "image": "images/art/festival-1-gulabi.svg" },
+    { "id": 12, "title": "The Tree of Life, Start to Finish", "length": "1h 48m", "views": "3.1k", "image": "images/art/kalamkari-1-kumkum.svg" },
+    { "id": 13, "title": "Moonlit Lake Colour Study", "length": "58m", "views": "1.7k", "image": "images/art/nature-5-neelam.svg" },
+    { "id": 14, "title": "Diyas and Glow Effects", "length": "1h 05m", "views": "2.0k", "image": "images/art/festival-2-sindoor.svg" }
+  ]
+}

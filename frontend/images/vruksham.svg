@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+<defs>
+<path id="l" d="M0 0 C-14 -14 -14 -34 0 -48 C14 -34 14 -14 0 0Z"/>
+<g id="fl"><circle r="9" fill="#b3122f"/><circle r="4.5" fill="#f2b632"/><circle cx="0" cy="-12" r="5" fill="#b3122f"/><circle cx="0" cy="12" r="5" fill="#b3122f"/><circle cx="12" cy="0" r="5" fill="#b3122f"/><circle cx="-12" cy="0" r="5" fill="#b3122f"/></g>
+</defs>
+<rect width="400" height="500" fill="#e9c98a"/>
+<rect x="14" y="14" width="372" height="472" fill="none" stroke="#6b1021" stroke-width="4"/>
+<rect x="26" y="26" width="348" height="448" fill="none" stroke="#6b1021" stroke-width="1.2" stroke-dasharray="4 5"/>
+<path d="M200 450 C200 380 190 320 200 250 C208 200 200 170 200 130" stroke="#5a2a14" stroke-width="16" fill="none" stroke-linecap="round"/>
+<g stroke="#5a2a14" stroke-width="6" fill="none" stroke-linecap="round">
+<path d="M200 330 C150 320 110 300 85 250"/>
+<path d="M200 330 C250 320 290 300 315 250"/>
+<path d="M200 270 C160 250 130 210 125 160"/>
+<path d="M200 270 C240 250 270 210 275 160"/>
+<path d="M200 200 C180 180 170 150 175 110"/>
+<path d="M200 200 C220 180 230 150 225 110"/>
+<path d="M100 450 C150 430 180 440 200 450 C220 440 250 430 300 450" stroke-width="8"/>
+</g>
+<g fill="#2f6b4f">
+<use href="#l" transform="translate(85 250) rotate(-30)"/><use href="#l" transform="translate(85 250) rotate(-70)" fill="#b5532a"/>
+<use href="#l" transform="translate(315 250) rotate(30)"/><use href="#l" transform="translate(315 250) rotate(70)" fill="#b5532a"/>
+<use href="#l" transform="translate(125 160) rotate(-20)"/><use href="#l" transform="translate(125 160) rotate(-60)" fill="#1d4e89"/>
+<use href="#l" transform="translate(275 160) rotate(20)"/><use href="#l" transform="translate(275 160) rotate(60)" fill="#1d4e89"/>
+<use href="#l" transform="translate(175 110) rotate(-10)"/><use href="#l" transform="translate(225 110) rotate(10)"/>
+<use href="#l" transform="translate(200 130) rotate(0)" fill="#b5532a"/>
+<use href="#l" transform="translate(150 316) rotate(-95)"/><use href="#l" transform="translate(250 316) rotate(95)"/>
+<use href="#l" transform="translate(165 255) rotate(-100)" fill="#b5532a"/><use href="#l" transform="translate(235 255) rotate(100)" fill="#b5532a"/>
+</g>
+<use href="#fl" transform="translate(200 108)"/>
+<use href="#fl" transform="translate(120 200)"/><use href="#fl" transform="translate(280 200)"/>
+<use href="#fl" transform="translate(95 290)"/><use href="#fl" transform="translate(305 290)"/>
+<g>
+<ellipse cx="108" cy="130" rx="14" ry="9" fill="#1d4e89"/><circle cx="120" cy="125" r="6" fill="#1d4e89"/><path d="M126 125 l8 2 -8 3Z" fill="#f2b632"/><path d="M96 130 l-14 -6 4 10Z" fill="#b3122f"/>
+<ellipse cx="292" cy="130" rx="14" ry="9" fill="#1f8a70"/><circle cx="280" cy="125" r="6" fill="#1f8a70"/><path d="M274 125 l-8 2 8 3Z" fill="#f2b632"/><path d="M304 130 l14 -6 -4 10Z" fill="#b3122f"/>
+</g>
+<g fill="#6b1021"><circle cx="60" cy="60" r="3"/><circle cx="340" cy="60" r="3"/><circle cx="60" cy="440" r="3"/><circle cx="340" cy="440" r="3"/></g>
+</svg>

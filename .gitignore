@@ -1,0 +1,21 @@
+# dependencies
+node_modules/
+
+# secrets: never commit these
+.env
+.env.*
+!.env.example
+
+# databases and uploads
+*.db
+*.sqlite
+*.sqlite3
+uploads/
+
+# logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
